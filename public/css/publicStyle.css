@@ -1,0 +1,184 @@
+/*
+
+COLOURS:
+
+Beige: #CFB7A0
+Maroon: #906F86
+Pink: #B090AF
+Blue: #999CC4
+Highlight Blue: #6B5FC0
+Red: #9B5364
+Black: #1E1B21
+
+*/
+
+
+/* LAYOUT */
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 21px;
+	padding-top: 20px;
+}
+header {
+	height: 150px;
+	background: #CFB7A0;
+}
+main {
+	width: 100%;
+	float: right;
+	background: #999CC4;	
+}
+main nav {
+	background: #B090AF;
+	width: 25%;
+	float: left;
+	padding: 30px 0 30px 5%;
+	margin: 20px 0;
+}
+main #content {
+	width: 53%;
+	float: right;
+	padding: 40px 5% 50px 5%;
+}
+footer {
+	width: 95%;
+	float: left;
+	background: #9B5364;
+	font: 1em;
+	color: #1E1B21;
+	padding: 25px 0 25px 5%;	
+}
+
+
+/* HEADER */
+
+header h1 {
+	font: 3em "Lobster";
+	color: #906F86;
+	text-align: center;
+	padding-top: 42px;
+}
+header a {
+	font: .6em "Open Sans";
+	color: #1E1B21;
+	text-decoration: none;
+	float: right;
+	padding: 10px 5% 0 0;	
+}
+header a:hover {
+	text-decoration: underline;	
+}
+
+
+/* NAVIGATION */
+
+main nav a {
+	font: .9em "Open Sans";
+	color: #9B5364;
+	text-decoration: none;
+}
+main nav .menu a {
+	display: block;
+	font: .9em "Open Sans";
+	color: #1E1B21;
+	text-decoration: none;
+	padding-bottom: 10px;	
+}
+main nav a:hover {
+	text-decoration: underline;		
+}
+main nav .menu {
+	padding: 10px 0;
+}
+main nav .menu .subjects a {
+	font: .9em "Open Sans";
+	color: #1E1B21;
+	text-decoration: none;
+}
+main nav .menu .pages a {
+	font: .75em "Open Sans";
+	color: #1E1B21;
+	padding-left: 10%;
+	text-decoration: none;
+}
+main nav .menu .subjects a:hover {
+	text-decoration: underline;
+}
+main nav .menu .pages a:hover {
+	text-decoration: underline;
+}
+.subjectSelected {
+	text-decoration: underline;
+}
+.pageSelected {
+	text-decoration: underline;
+}
+li.subjectSelected + ul li.pageSelected {
+	text-decoration: none;	
+}
+main nav ul li {
+	padding: 10px 0;
+}
+
+
+/* SUCCESS MESSAGE: index */
+
+main #content .message {
+	border: 1px solid #000;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	font: 1em "Open Sans";	
+	
+}
+/* TABLE INFORMATION: index.php */
+
+main #content .tableInformation h2 {
+	font: 1.5em "Open Sans";
+	font-weight: bold;
+	color: #1E1B21;
+	padding-bottom: 10px;
+}
+main #content .tableInformation h3 {
+	font: 1em "Open Sans";
+	font-weight: bold;	
+}
+main #content .tableInformation p {
+	font: 1em "Open Sans";
+	color: #1E1B21;	
+}
+main #content .tableInformation ul li {
+	padding-top: 20px;
+}
+main #content .tableInformation ul li {
+	float: left;
+	width: 40%;
+	padding-right: 5%;
+}
+main #content .tableInformation ul li a {
+	font: 1em "Open Sans";
+	color:	#655FC0;
+	text-decoration: none;	
+}
+main #content .tableInformation ul li a:hover {
+	font: 1em "Open Sans";
+	color:	#655FC0;
+	text-decoration: underline;
+}
+
+/* FORM: login.php */
+
+main #content .form p {
+	padding-bottom: 20px;
+	font: 1em "Open Sans";	
+	color: #1E1B21;	
+}
+
+
+/* FOOTER */ 
+
+footer p {
+	font: .75em "Open Sans";
+	color: #1E1B21;	
+}
